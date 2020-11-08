@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Giỏ hàng</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex flex-wrap item-group">
+        </div>
+        <div>
+            <h1>Order Details</h1>
+            <!-- Notification gen in js-->
+            <div class="cart-notification">
+            </div>
+            <div class="text-right" id="clear-cart">
+                <h5 class="link">CLEAR CART</h5>
+            </div>
+            <table class="table table-bordered">
+                <thead id="table-header" class="font-weight-bold">
+                    <td class="w-44-2">Item name</td>
+                    <td class="w-11-5">Quantity</td>
+                    <td class="w-21">Price</td>
+                    <td class="w-16-3">Total</td>
+                    <td class="w-7">Action</td>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+                <tfoot id="table-footer">
+                    <tr>
+                        <td colspan="3" class="text-right">Total</td>
+                        <td class="text-right total-price"></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/dienthoai.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

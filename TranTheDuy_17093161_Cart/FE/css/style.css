@@ -1,0 +1,44 @@
+/* Set width */
+
+.w-44-2 {
+    width: 44.2%;
+}
+
+.w-11-5 {
+    width: 11.5%;
+}
+
+.w-21 {
+    width: 21%;
+}
+
+.w-16-3 {
+    width: 16.3%;
+}
+
+.w-7 {
+    width: 7%;
+}
+
+/* item */
+
+.item {
+    height: 30%;
+    width: 23.5%;
+}
+
+.item input[type=number] {
+    width: 80%;
+}
+
+/* item-image */
+
+.item-image {
+    height: 70%;
+    width: 70%;
+}
+
+.link:hover {
+    color: blue;
+    cursor: pointer;
+}
